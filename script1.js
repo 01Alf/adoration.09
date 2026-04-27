@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
         for (let i = 0; i < 5; i++) {
             const blossom = document.createElement('div');
             blossom.classList.add('blossom');
-            blossom.innerHTML = '🌼';
+            blossom.innerHTML = '🪻';
             blossom.style.left = Math.random() * 100 + '%';
             blossom.style.top = Math.random() * 100 + '%';
             blossom.style.animationDelay = Math.random() * 5 + 's';
